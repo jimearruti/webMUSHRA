@@ -1,0 +1,238 @@
+# example config for the morphing page: 0 = source instrument, 100 = target instrument
+
+testname: Evaluation of timbre transfer interpolation quality
+testId: morphing_example
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+
+
+pages:
+
+    - type: consent
+      id: consent_page
+      name: Consent
+      mustConsent: true
+      content: >-
+        <p>Thank you for your interest in this research.<br><br>
+
+        <b>Should you wish to participate in the study, please read our [Participant Information Sheet](link_to_sheet).</b><br><br>
+
+        <b>Please read the following statements and indicate your agreement.</b><br><br>
+
+        1. I confirm that I have read the Participant Information Sheet dated 22/05/2026 version 1.0 for the above study.<br>
+        2. I understand that my participation is voluntary and that I am free to stop taking part in the study at any time during participation without giving any reason and without my rights being affected.<br>
+        3. I understand that my data will be accessed by the research team.<br>
+        4. I understand that my data will be securely stored in the UK and in accordance with the data protection guidelines of Queen Mary University of London until September 2031 in fully anonymised form.<br>
+        5. I understand that I can't request the collected data to be destroyed, as it will be anonymised since data collection.<br>
+        6. I understand that the collected data may be used in publications or related presentations.<br>
+        7. I agree to take part in the above study.<br><br>
+
+        <b>Do you consent to take part in this listening test with the above terms?</b></p>
+    
+    - type: volume
+      id: vol
+      name: Volume settings
+      content: Please adjust the volume until you are comfortable with the sound level. Make sure to use headphones during the listening test.
+      stimulus: configs/resources/audio/mono_c1.wav
+      defaultVolume: 0.5
+
+    - type: morphing
+      id: interpolate_outputs_vn_fl
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_weights_vn_fl
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_outputs_vn_tpt
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_weights_vn_tpt
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_outputs_fl_tpt
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_weights_fl_tpt
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_outputs_fl_vn
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_weights_fl_vn
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_outputs_tpt_vn
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_weights_tpt_vn
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_outputs_tpt_fl
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: morphing
+      id: interpolate_weights_tpt_fl
+      name: Morphing Trial
+      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      showWaveform: true
+      enableLooping: true
+      reference: configs/resources/audio/mono_ref.wav
+      createAnchor35: false
+      createAnchor70: false
+      stimuli:
+          C1: configs/resources/audio/mono_c1.wav
+          C2: configs/resources/audio/mono_c2.wav
+          C3: configs/resources/audio/mono_c3.wav
+          C4: configs/resources/audio/mono_c3.wav
+          C5: configs/resources/audio/mono_c3.wav
+
+    - type: finish
+      name: Thank you
+      content: Thank you for your participation!
+      popupContent: Your results were sent. Goodbye and have a nice day!
+      showResults: true
+      writeResults: true

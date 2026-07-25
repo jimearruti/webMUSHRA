@@ -79,7 +79,50 @@ if ($write_mushra) {
 	$isFile = is_file($filename);
 	$fp = fopen($filename, 'a');
 	foreach ($mushraCsvData as $row) {
-		if ($isFile) {	    	
+		if ($isFile) {
+			$isFile = false;
+		} else {
+		   fputcsv($fp, $row);
+		}
+	}
+	fclose($fp);
+}
+
+// morphing
+$write_morphing = false;
+$morphingCsvData = array();
+
+$input = array("session_test_id");
+for($i =0; $i < $length; $i++){
+	array_push($input, $session->participant->name[$i]);
+}
+array_push($input, "session_uuid", "trial_id", "rating_stimulus", "rating_score", "rating_time", "rating_comment");
+array_push($morphingCsvData, $input);
+
+foreach ($session->trials as $trial) {
+  if ($trial->type == "morphing") {
+  $write_morphing = true;
+
+    foreach ($trial->responses as $response) {
+
+    $results = array($session->testId);
+    for($i =0; $i < $length; $i++){
+      array_push($results, $session->participant->response[$i]);
+    }
+    array_push($results, $session->uuid, $trial->id, $response->stimulus, $response->score, $response->time, $response->comment);
+
+      array_push($morphingCsvData, $results);
+
+    }
+  }
+}
+
+if ($write_morphing) {
+	$filename = $filepathPrefix."morphing".$filepathPostfix;
+	$isFile = is_file($filename);
+	$fp = fopen($filename, 'a');
+	foreach ($morphingCsvData as $row) {
+		if ($isFile) {
 			$isFile = false;
 		} else {
 		   fputcsv($fp, $row);

@@ -85,6 +85,9 @@ function addPagesToPageManager(_pageManager, _pages) {
       } else if (pageConfig.type == "mushra") {
         var mushraPage = new MushraPage(_pageManager, audioContext, config.bufferSize, audioFileLoader, session, pageConfig, mushraValidator, errorHandler, config.language);
         _pageManager.addPage(mushraPage);
+      } else if (pageConfig.type == "morphing") {
+        var morphingPage = new MorphingPage(_pageManager, pageTemplateRenderer, audioContext, config.bufferSize, audioFileLoader, session, pageConfig, mushraValidator, errorHandler, config.language);
+        _pageManager.addPage(morphingPage);
       }  else if (pageConfig.type == "ranking") {
         var mushraPage = new RankingPage(_pageManager, audioContext, config.bufferSize, audioFileLoader, session, pageConfig, mushraValidator, errorHandler, config.language);
         _pageManager.addPage(mushraPage);
