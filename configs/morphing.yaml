@@ -232,7 +232,58 @@ pages:
 
     - type: finish
       name: Thank you
-      content: Thank you for your participation!
-      popupContent: Your results were sent. Goodbye and have a nice day!
+      content: We'd like to know a bit about you. Please answer the following questions about age, gender and musical occupation.
+      popupContent: Your results were sent. Goodbye and have a nice day
       showResults: true
       writeResults: true
+      questionnaire:
+          - type: number
+            label: Age
+            name: age
+            min: 0
+            max: 100
+            default: ""
+          - type: likert
+            name: gender
+            label: Gender
+            response:
+             - value: female
+               label: Female
+             - value: male
+               label: Male
+             - value: non_binary
+               label: Non-binary
+             - value: not_disclose
+               label: Prefer not to disclose
+             - value: self_describe
+               label: Prefer to self-describe
+          - type: text
+            name: gender_self_describe
+            label: Gender (self-describe)
+            optional: true
+
+          - type: number
+            label: Years of musical experience
+            name: years_musical_experience
+            min: 0
+            max: 100
+            default: ""
+            
+          - type: multiple_choice
+            name: musical_occupation
+            label: Musical occupation
+            response:
+             - value: musician
+               label: Musician
+             - value: composer
+               label: Composer
+             - value: sound_designer
+               label: Sound Designer
+             - value: music_producer
+               label: Music Producer
+             - value: other
+               label: Other (please specify)
+          - type: text
+            name: musical_occupation_self_describe
+            label: Musical Occupation (self-describe)
+            optional: true
