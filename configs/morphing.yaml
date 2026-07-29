@@ -21,7 +21,7 @@ pages:
 
         <b>Please read the following statements and indicate your agreement.</b><br><br>
 
-        1. I confirm that I have read the Participant Information Sheet dated 22/05/2026 version 1.0 for the above study.<br>
+        1. I confirm that I have read the Participant Information Sheet dated 22/05/2026 version 1.1 for the above study.<br>
         2. I understand that my participation is voluntary and that I am free to stop taking part in the study at any time during participation without giving any reason and without my rights being affected.<br>
         3. I understand that my data will be accessed by the research team.<br>
         4. I understand that my data will be securely stored in the UK and in accordance with the data protection guidelines of Queen Mary University of London until September 2031 in fully anonymised form.<br>
@@ -35,72 +35,72 @@ pages:
       id: vol
       name: Volume settings
       content: Please adjust the volume until you are comfortable with the sound level. Make sure to use headphones during the listening test.
-      stimulus: configs/resources/audio/mono_c1.wav
+      stimulus: configs/resources/audio/AuSep_2_vn_09_Jesus_cropped_5000_12819.wav
       defaultVolume: 0.5
 
     - type: morphing
       id: interpolate_outputs_vn_fl
       name: Morphing Trial
-      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      content: Listen to the original recording (Reference). Then, listen to the resynthesis to the source instrument (0) and timbre transfer to a target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
+      reference_0: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_output_vn_fl_from_scratch_alpha_0_with_reverb_cropped_4330_12569.wav
+      reference_100: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_output_vn_fl_from_scratch_alpha_100_with_reverb_cropped_4330_12569.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_output_vn_fl_from_scratch_alpha_25_with_reverb_cropped_4330_12569.wav
+          C2: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_output_vn_fl_from_scratch_alpha_50_with_reverb_cropped_4330_12569.wav
+          C3: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_output_vn_fl_from_scratch_alpha_75_with_reverb_cropped_4330_12569.wav
 
     - type: morphing
       id: interpolate_weights_vn_fl
       name: Morphing Trial
-      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      content: Listen to the original recording (Reference). Then, listen to the resynthesis to the source instrument (0) and timbre transfer to a target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
+      reference_0: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_weights_vn_fl_finetuned_alpha_0_with_reverb_cropped_4330_12569.wav
+      reference_100: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_weights_vn_fl_finetuned_alpha_100_with_reverb_cropped_4330_12569.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_weights_vn_fl_finetuned_alpha_25_with_reverb_cropped_4330_12569.wav
+          C2: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_weights_vn_fl_finetuned_alpha_50_with_reverb_cropped_4330_12569.wav
+          C3: configs/resources/audio/AuSep_1_vn_02_Sonata_interpolated_weights_vn_fl_finetuned_alpha_75_with_reverb_cropped_4330_12569.wav
 
     - type: morphing
       id: interpolate_outputs_vn_tpt
       name: Morphing Trial
-      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      content: Listen to the original recording (Reference). Then, listen to the resynthesis to the source instrument (0) and timbre transfer to a target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_vn_35_Rondeau_cropped_11801_18635.wav
+      reference_0: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_output_vn_tpt_from_scratch_alpha_0_with_reverb_cropped_11801_18635.wav
+      reference_100: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_output_vn_tpt_from_scratch_alpha_100_with_reverb_cropped_11801_18635.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_output_vn_tpt_from_scratch_alpha_25_with_reverb_cropped_11801_18635.wav
+          C2: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_output_vn_tpt_from_scratch_alpha_50_with_reverb_cropped_11801_18635.wav
+          C3: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_output_vn_tpt_from_scratch_alpha_75_with_reverb_cropped_11801_18635.wav
 
     - type: morphing
       id: interpolate_weights_vn_tpt
       name: Morphing Trial
-      content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
+      content: Listen to the original recording (Reference). Then, listen to the resynthesis to the source instrument (0) and timbre transfer to a target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_vn_35_Rondeau_cropped_11801_18635.wav
+      reference_0: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_weights_vn_tpt_finetuned_alpha_0_with_reverb_cropped_11801_18635.wav
+      reference_100: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_weights_vn_tpt_finetuned_alpha_100_with_reverb_cropped_11801_18635.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_weights_vn_tpt_finetuned_alpha_25_with_reverb_cropped_11801_18635.wav
+          C2: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_weights_vn_tpt_finetuned_alpha_50_with_reverb_cropped_11801_18635.wav
+          C3: configs/resources/audio/AuSep_1_vn_35_Rondeau_interpolated_weights_vn_tpt_finetuned_alpha_75_with_reverb_cropped_11801_18635.wav
 
     - type: morphing
       id: interpolate_outputs_fl_tpt
@@ -108,15 +108,15 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
+      reference_0: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_output_fl_tpt_finetuned_alpha_0_with_reverb_cropped_8109_15854.wav
+      reference_100: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_output_fl_tpt_finetuned_alpha_100_with_reverb_cropped_8109_15854.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_output_fl_tpt_finetuned_alpha_25_with_reverb_cropped_8109_15854.wav
+          C2: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_output_fl_tpt_finetuned_alpha_50_with_reverb_cropped_8109_15854.wav
+          C3: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_output_fl_tpt_finetuned_alpha_75_with_reverb_cropped_8109_15854.wav
 
     - type: morphing
       id: interpolate_weights_fl_tpt
@@ -124,15 +124,15 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
+      reference_0: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_weights_fl_tpt_finetuned_alpha_0_with_reverb_cropped_8109_15854.wav
+      reference_100: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_weights_fl_tpt_finetuned_alpha_100_with_reverb_cropped_8109_15854.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_weights_fl_tpt_finetuned_alpha_25_with_reverb_cropped_8109_15854.wav
+          C2: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_weights_fl_tpt_finetuned_alpha_50_with_reverb_cropped_8109_15854.wav
+          C3: configs/resources/audio/AuSep_1_fl_40_Miserere_interpolated_weights_fl_tpt_finetuned_alpha_75_with_reverb_cropped_8109_15854.wav
 
     - type: morphing
       id: interpolate_outputs_fl_vn
@@ -140,15 +140,16 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_2_fl_40_Miserere_cropped_2065_9446.wav
+      reference_0: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_output_fl_vn_from_scratch_alpha_0_with_reverb_cropped_2065_9446.wav
+      reference_100: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_output_fl_vn_from_scratch_alpha_100_with_reverb_cropped_2065_9446.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_output_fl_vn_from_scratch_alpha_25_with_reverb_cropped_2065_9446.wav
+          C2: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_output_fl_vn_from_scratch_alpha_50_with_reverb_cropped_2065_9446.wav
+          C3: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_output_fl_vn_from_scratch_alpha_75_with_reverb_cropped_2065_9446.wav
+
 
     - type: morphing
       id: interpolate_weights_fl_vn
@@ -156,15 +157,15 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_2_fl_40_Miserere_cropped_2065_9446.wav
+      reference_0: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_weights_fl_vn_finetuned_alpha_0_with_reverb_cropped_2065_9446.wav
+      reference_100: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_weights_fl_vn_finetuned_alpha_100_with_reverb_cropped_2065_9446.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_weights_fl_vn_finetuned_alpha_25_with_reverb_cropped_2065_9446.wav
+          C2: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_weights_fl_vn_finetuned_alpha_50_with_reverb_cropped_2065_9446.wav
+          C3: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_weights_fl_vn_finetuned_alpha_75_with_reverb_cropped_2065_9446.wav
 
     - type: morphing
       id: interpolate_outputs_tpt_vn
@@ -172,15 +173,15 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_2_tpt_31_Slavonic_cropped_7845_13394.wav
+      reference_0: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_output_tpt_vn_finetuned_alpha_0_with_reverb_cropped_7845_13394.wav
+      reference_100: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_output_tpt_vn_finetuned_alpha_100_with_reverb_cropped_7845_13394.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_output_tpt_vn_finetuned_alpha_25_with_reverb_cropped_7845_13394.wav
+          C2: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_output_tpt_vn_finetuned_alpha_50_with_reverb_cropped_7845_13394.wav
+          C3: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_output_tpt_vn_finetuned_alpha_75_with_reverb_cropped_7845_13394.wav
 
     - type: morphing
       id: interpolate_weights_tpt_vn
@@ -188,15 +189,15 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_2_tpt_31_Slavonic_cropped_7845_13394.wav
+      reference_0: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_weights_tpt_vn_finetuned_alpha_0_with_reverb_cropped_7845_13394.wav
+      reference_100: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_weights_tpt_vn_finetuned_alpha_100_with_reverb_cropped_7845_13394.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_weights_tpt_vn_finetuned_alpha_25_with_reverb_cropped_7845_13394.wav
+          C2: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_weights_tpt_vn_finetuned_alpha_50_with_reverb_cropped_7845_13394.wav
+          C3: configs/resources/audio/AuSep_2_tpt_31_Slavonic_interpolated_weights_tpt_vn_finetuned_alpha_75_with_reverb_cropped_7845_13394.wav
 
     - type: morphing
       id: interpolate_outputs_tpt_fl
@@ -204,15 +205,16 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_tpt_43_Chorale_cropped_24798_30317.wav
+      reference_0: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_0_with_reverb_cropped_24798_30317.wav
+      reference_100: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_100_with_reverb_cropped_24798_30317.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_25_with_reverb_cropped_24798_30317.wav
+          C2: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_50_with_reverb_cropped_24798_30317.wav
+          C3: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_75_with_reverb_cropped_24798_30317.wav
+
 
     - type: morphing
       id: interpolate_weights_tpt_fl
@@ -220,15 +222,15 @@ pages:
       content: Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100).
       showWaveform: true
       enableLooping: true
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/AuSep_1_tpt_43_Chorale_cropped_24798_30317.wav
+      reference_0: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_weights_tpt_fl_finetuned_alpha_0_with_reverb_cropped_24798_30317.wav
+      reference_100: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_weights_tpt_fl_finetuned_alpha_100_with_reverb_cropped_24798_30317.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-          C4: configs/resources/audio/mono_c3.wav
-          C5: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_weights_tpt_fl_finetuned_alpha_25_with_reverb_cropped_24798_30317.wav
+          C2: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_weights_tpt_fl_finetuned_alpha_50_with_reverb_cropped_24798_30317.wav
+          C3: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_weights_tpt_fl_finetuned_alpha_75_with_reverb_cropped_24798_30317.wav
 
     - type: finish
       name: Thank you
@@ -237,12 +239,23 @@ pages:
       showResults: true
       writeResults: true
       questionnaire:
-          - type: number
-            label: Age
+          - type: likert
             name: age
-            min: 0
-            max: 100
-            default: ""
+            label: Age
+            response:
+             - value: 18-24
+               label: 18-24
+             - value: 25-34
+               label: 25-34
+             - value: 35-44
+               label: 35-44
+             - value: 45-54
+               label: 45-54
+             - value: 55-64
+               label: 55-64
+             - value: 65+
+               label: 65+
+
           - type: likert
             name: gender
             label: Gender
@@ -257,6 +270,7 @@ pages:
                label: Prefer not to disclose
              - value: self_describe
                label: Prefer to self-describe
+          
           - type: text
             name: gender_self_describe
             label: Gender (self-describe)
