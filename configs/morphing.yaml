@@ -17,11 +17,12 @@ pages:
       content: >-
         <p>Thank you for your interest in this research.<br><br>
 
-        <b>Should you wish to participate in the study, please read our [Participant Information Sheet](link_to_sheet).</b><br><br>
-
+        <b>Should you wish to participate in the study, please read our
+        <a href="https://drive.google.com/file/d/1B7LfS9TGBip3Cl24mF-lKUk1kqIQ3-9M/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        Participant Information Sheet</a>.</b><br><br>
         <b>Please read the following statements and indicate your agreement.</b><br><br>
 
-        1. I confirm that I have read the Participant Information Sheet dated 22/05/2026 version 1.1 for the above study.<br>
+        1. I confirm that I have read the Participant Information Sheet dated 28/07/2026 version 1.1 for the above study.<br>
         2. I understand that my participation is voluntary and that I am free to stop taking part in the study at any time during participation without giving any reason and without my rights being affected.<br>
         3. I understand that my data will be accessed by the research team.<br>
         4. I understand that my data will be securely stored in the UK and in accordance with the data protection guidelines of Queen Mary University of London until September 2031 in fully anonymised form.<br>
@@ -41,7 +42,10 @@ pages:
     - type: morphing
       id: interpolate_outputs_vn_fl
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
@@ -57,7 +61,12 @@ pages:
     - type: morphing
       id: interpolate_weights_vn_fl
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
@@ -73,7 +82,10 @@ pages:
     - type: morphing
       id: interpolate_outputs_vn_tpt
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_35_Rondeau_cropped_11801_18635.wav
@@ -89,7 +101,10 @@ pages:
     - type: morphing
       id: interpolate_weights_vn_tpt
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_35_Rondeau_cropped_11801_18635.wav
@@ -105,7 +120,10 @@ pages:
     - type: morphing
       id: interpolate_outputs_fl_tpt
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
@@ -121,7 +139,10 @@ pages:
     - type: morphing
       id: interpolate_weights_fl_tpt
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
@@ -137,7 +158,10 @@ pages:
     - type: morphing
       id: interpolate_outputs_fl_vn
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_fl_40_Miserere_cropped_2065_9446.wav
@@ -154,7 +178,10 @@ pages:
     - type: morphing
       id: interpolate_weights_fl_vn
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_fl_40_Miserere_cropped_2065_9446.wav
@@ -170,7 +197,10 @@ pages:
     - type: morphing
       id: interpolate_outputs_tpt_vn
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_tpt_31_Slavonic_cropped_7845_13394.wav
@@ -186,7 +216,10 @@ pages:
     - type: morphing
       id: interpolate_weights_tpt_vn
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_tpt_31_Slavonic_cropped_7845_13394.wav
@@ -202,7 +235,10 @@ pages:
     - type: morphing
       id: interpolate_outputs_tpt_fl
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_tpt_43_Chorale_cropped_24798_30317.wav
@@ -219,7 +255,10 @@ pages:
     - type: morphing
       id: interpolate_weights_tpt_fl
       name: Morphing Trial
-      content: Listen to the phrase on the source instrument (0) and on the target instrument (100). Rate how close each stimulus sounds to the source instrument (0) versus a target instrument (100). Please use the full range of the scale.
+      content: >-
+        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
+        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <b>Please use the full range of the scale.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_tpt_43_Chorale_cropped_24798_30317.wav
