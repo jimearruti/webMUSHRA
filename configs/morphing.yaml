@@ -9,8 +9,7 @@ remoteService: service/write.php
 
 
 pages:
-
-    - type: consent
+  - - type: consent
       id: consent_page
       name: Consent
       mustConsent: true
@@ -39,6 +38,7 @@ pages:
       stimulus: configs/resources/audio/AuSep_2_vn_09_Jesus_cropped_5000_12819.wav
       defaultVolume: 0.5
 
+  - - random
     - type: morphing
       id: interpolate_outputs_vn_fl
       name: Morphing Trial
@@ -174,7 +174,6 @@ pages:
           C2: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_output_fl_vn_from_scratch_alpha_50_with_reverb_cropped_2065_9446.wav
           C3: configs/resources/audio/AuSep_2_fl_40_Miserere_interpolated_output_fl_vn_from_scratch_alpha_75_with_reverb_cropped_2065_9446.wav
 
-
     - type: morphing
       id: interpolate_weights_fl_vn
       name: Morphing Trial
@@ -251,7 +250,6 @@ pages:
           C2: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_from_scratch_alpha_50_with_reverb_cropped_24798_30317.wav
           C3: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_from_scratch_alpha_75_with_reverb_cropped_24798_30317.wav
 
-
     - type: morphing
       id: interpolate_weights_tpt_fl
       name: Morphing Trial
@@ -271,7 +269,7 @@ pages:
           C2: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_weights_tpt_fl_finetuned_from_30k_for_30k_alpha_50_with_reverb_cropped_24798_30317.wav
           C3: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_weights_tpt_fl_finetuned_from_30k_for_30k_alpha_75_with_reverb_cropped_24798_30317.wav
 
-    - type: finish
+  - - type: finish
       name: Thank you
       content: We'd like to know a bit about you. Please answer the following questions about age, gender and musical occupation.
       popupContent: Your results were sent. Goodbye and have a nice day
