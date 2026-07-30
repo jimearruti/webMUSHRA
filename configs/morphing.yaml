@@ -206,14 +206,14 @@ pages:
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_tpt_43_Chorale_cropped_24798_30317.wav
-      reference_0: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_0_with_reverb_cropped_24798_30317.wav
-      reference_100: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_100_with_reverb_cropped_24798_30317.wav
+      reference_0: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_from_scratch_alpha_0_with_reverb_cropped_24798_30317.wav
+      reference_100: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_from_scratch_alpha_100_with_reverb_cropped_24798_30317.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_25_with_reverb_cropped_24798_30317.wav
-          C2: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_50_with_reverb_cropped_24798_30317.wav
-          C3: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_finetuned_alpha_75_with_reverb_cropped_24798_30317.wav
+          C1: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_from_scratch_alpha_25_with_reverb_cropped_24798_30317.wav
+          C2: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_from_scratch_alpha_50_with_reverb_cropped_24798_30317.wav
+          C3: configs/resources/audio/AuSep_1_tpt_43_Chorale_interpolated_output_tpt_fl_from_scratch_alpha_75_with_reverb_cropped_24798_30317.wav
 
 
     - type: morphing
