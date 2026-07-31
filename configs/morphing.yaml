@@ -47,7 +47,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
@@ -68,7 +68,7 @@ pages:
         
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
         
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
@@ -106,7 +106,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_35_Rondeau_cropped_11801_18635.wav
@@ -125,7 +125,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
@@ -144,7 +144,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
@@ -163,7 +163,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_fl_40_Miserere_cropped_2065_9446.wav
@@ -182,7 +182,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_fl_40_Miserere_cropped_2065_9446.wav
@@ -201,7 +201,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_tpt_31_Slavonic_cropped_7845_13394.wav
@@ -220,7 +220,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_2_tpt_31_Slavonic_cropped_7845_13394.wav
@@ -239,7 +239,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_tpt_43_Chorale_cropped_24798_30317.wav
@@ -258,7 +258,7 @@ pages:
       content: >-
         <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
         Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_tpt_43_Chorale_cropped_24798_30317.wav
