@@ -64,8 +64,8 @@ pages:
       id: interpolate_weights_vn_fl
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p></p>
       showWaveform: true
       enableLooping: true
@@ -83,8 +83,8 @@ pages:
       id: interpolate_outputs_vn_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -102,8 +102,8 @@ pages:
       id: interpolate_weights_vn_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -121,8 +121,8 @@ pages:
       id: interpolate_outputs_fl_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -140,8 +140,8 @@ pages:
       id: interpolate_weights_fl_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -159,8 +159,8 @@ pages:
       id: interpolate_outputs_fl_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -178,8 +178,8 @@ pages:
       id: interpolate_weights_fl_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -197,8 +197,8 @@ pages:
       id: interpolate_outputs_tpt_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -216,8 +216,8 @@ pages:
       id: interpolate_weights_tpt_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -235,8 +235,8 @@ pages:
       id: interpolate_outputs_tpt_fl
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -254,8 +254,8 @@ pages:
       id: interpolate_weights_tpt_fl
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <p>To start, please listen to the musical phrase played by instrument A and instrument B. <br><br>
+        You will later listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
