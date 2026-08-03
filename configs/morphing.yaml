@@ -45,9 +45,9 @@ pages:
       id: interpolate_outputs_vn_fl
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
@@ -64,10 +64,8 @@ pages:
       id: interpolate_weights_vn_fl
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -85,9 +83,9 @@ pages:
       id: interpolate_outputs_vn_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale.</b></p>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_35_Rondeau_cropped_11801_18635.wav
@@ -104,9 +102,9 @@ pages:
       id: interpolate_weights_vn_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_35_Rondeau_cropped_11801_18635.wav
@@ -123,9 +121,9 @@ pages:
       id: interpolate_outputs_fl_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
@@ -142,9 +140,9 @@ pages:
       id: interpolate_weights_fl_tpt
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
-        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_fl_40_Miserere_cropped_8109_15854.wav
@@ -161,8 +159,8 @@ pages:
       id: interpolate_outputs_fl_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -180,8 +178,8 @@ pages:
       id: interpolate_weights_fl_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -199,8 +197,8 @@ pages:
       id: interpolate_outputs_tpt_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -218,8 +216,8 @@ pages:
       id: interpolate_weights_tpt_vn
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -237,8 +235,8 @@ pages:
       id: interpolate_outputs_tpt_fl
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -256,8 +254,8 @@ pages:
       id: interpolate_weights_tpt_fl
       name: Morphing Trial
       content: >-
-        <p>Listen to the phrase on the source instrument (0) and on the target instrument (100). <br><br>
-        Rate how close each stimulus sounds to the source instrument (0) versus the target instrument (100). <br><br>
+        <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
+        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
