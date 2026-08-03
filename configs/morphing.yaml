@@ -46,7 +46,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p></p>
       showWaveform: true
       enableLooping: true
@@ -65,8 +65,8 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
-        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
+        <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p></p>
       showWaveform: true
       enableLooping: true
       reference: configs/resources/audio/AuSep_1_vn_02_Sonata_cropped_4330_12569.wav
@@ -84,7 +84,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -103,7 +103,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -122,7 +122,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -141,7 +141,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b>
       showWaveform: true
       enableLooping: true
@@ -160,7 +160,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -179,7 +179,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -198,7 +198,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -217,7 +217,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -236,7 +236,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
@@ -255,7 +255,7 @@ pages:
       name: Morphing Trial
       content: >-
         <p>Listen to the phrase played by the instrument A and instrument B. <br><br>
-        Later, you will listen to intermediate hybrid instruments between A and B. Please rate how close each stimulus sounds to instrument A versus instrument B. <br><br>
+        You will listen to five examples of hybrid instruments. Please rate where you perceive their timbre to be, in a scale ranging from instrument A to instrument B. <br><br>
         <b>Please use the full range of the scale. You can only move the slider of the stimulus you are currently listening to.</b></p>
       showWaveform: true
       enableLooping: true
