@@ -272,8 +272,8 @@ pages:
   -
     - type: finish
       name: Thank you
-      content: We'd like to know a bit about you. Please answer the following questions about age, gender and musical occupation.
-      popupContent: Your results were sent. Goodbye and have a nice day
+      content: We'd like to know a bit about you. Please answer the following questions about age, gender and musical occupation. If you have any comments on the experiment, please write them in the comment box. Thank you for your time and participation, and remember to press send!
+      popupContent: Your results were sent. Goodbye and have a nice day!
       showResults: true
       writeResults: true
       questionnaire:
@@ -311,7 +311,7 @@ pages:
           
           - type: text
             name: gender_self_describe
-            label: Gender (self-describe)
+            label: Gender (fill if you selected self-describe)
             optional: true
 
           - type: number
@@ -323,7 +323,7 @@ pages:
             
           - type: multiple_choice
             name: musical_occupation
-            label: Musical occupation
+            label: Musical occupation (select all that apply)
             response:
              - value: musician
                label: Musician
@@ -337,5 +337,10 @@ pages:
                label: Other (please specify)
           - type: text
             name: musical_occupation_self_describe
-            label: Musical Occupation (self-describe)
+            label: Musical Occupation (fill if you selected other)
+            optional: true
+
+          - type: text
+            name: comments
+            label: Final comments (optional)
             optional: true
