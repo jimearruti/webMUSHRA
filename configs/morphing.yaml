@@ -343,7 +343,7 @@ pages:
             label: Musical Occupation (if other)
             optional: true
 
-          - type: text
+          - type: long_text
             name: comments
             label: Final comments (optional)
             optional: true
