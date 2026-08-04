@@ -275,7 +275,7 @@ pages:
       content: >-
         We'd like to know a bit about you. Please answer the following questions about age, gender and musical occupation. <br><br>
         If you have any comments on the experiment, please write them in the comment box. <br><br>
-        Thank you for your time and participation, and please remember to press "send results"!
+        Thank you for your time and participation, and <b>please remember to press "send results"!</b>
       popupContent: Your results were sent. Goodbye and have a nice day!
       showResults: true
       writeResults: true
